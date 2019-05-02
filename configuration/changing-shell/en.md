@@ -1,6 +1,6 @@
 +++
 title = "Changing Shell"
-lastmod = "2019-03-19T19:58:14+01:00"
+lastmod = "2019-05-02T10:01:22+02:00"
 +++
 # Changing Shell
 
@@ -30,4 +30,11 @@ Example:
 
 ``` bash
 sudo chsh -s /bin/zsh $(whoami)
+```
+You can get the path to shell executable using `which`
+
+Example:
+
+``` bash
+which zsh
 ```
